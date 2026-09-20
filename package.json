@@ -1,0 +1,23 @@
+{
+  "name": "dccmcp-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "DCCMCP — MCP servers for creative and engineering software",
+  "license": "UNLICENSED",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "publish:all": "bash scripts/publish-all.sh",
+    "publish:dry-run": "bash scripts/publish-all.sh --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dccmcp/dccmcp.git"
+  },
+  "homepage": "https://dccmcp.com",
+  "engines": {
+    "node": ">=18"
+  }
+}

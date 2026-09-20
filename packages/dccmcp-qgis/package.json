@@ -1,0 +1,36 @@
+{
+  "name": "dccmcp-qgis",
+  "version": "0.1.0",
+  "description": "MCP server for QGIS — connect AI agents to QGIS with typed tools, safety policies and audit logs.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bin": {
+    "dccmcp-qgis": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "dcc",
+    "dccmcp",
+    "qgis"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dccmcp/dccmcp.git"
+  },
+  "homepage": "https://dccmcp.com/mcp-for-qgis",
+  "bugs": "https://github.com/dccmcp/dccmcp/issues",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

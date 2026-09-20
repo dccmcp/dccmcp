@@ -1,0 +1,36 @@
+{
+  "name": "dccmcp-rhino",
+  "version": "0.1.0",
+  "description": "MCP server for Rhino — connect AI agents to Rhino with typed tools, safety policies and audit logs.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bin": {
+    "dccmcp-rhino": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "dcc",
+    "dccmcp",
+    "rhino"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dccmcp/dccmcp.git"
+  },
+  "homepage": "https://dccmcp.com/mcp-for-rhino",
+  "bugs": "https://github.com/dccmcp/dccmcp/issues",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

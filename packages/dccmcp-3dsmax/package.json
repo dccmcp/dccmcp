@@ -1,0 +1,36 @@
+{
+  "name": "dccmcp-3dsmax",
+  "version": "0.1.0",
+  "description": "MCP server for 3ds Max — connect AI agents to 3ds Max with typed tools, safety policies and audit logs.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bin": {
+    "dccmcp-3dsmax": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "dcc",
+    "dccmcp",
+    "3dsmax"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dccmcp/dccmcp.git"
+  },
+  "homepage": "https://dccmcp.com/mcp-for-3dsmax",
+  "bugs": "https://github.com/dccmcp/dccmcp/issues",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

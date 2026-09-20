@@ -1,0 +1,36 @@
+{
+  "name": "dccmcp-maya",
+  "version": "0.1.0",
+  "description": "MCP server for Maya — connect AI agents to Maya with typed tools, safety policies and audit logs.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bin": {
+    "dccmcp-maya": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "dcc",
+    "dccmcp",
+    "maya"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dccmcp/dccmcp.git"
+  },
+  "homepage": "https://dccmcp.com/mcp-for-maya",
+  "bugs": "https://github.com/dccmcp/dccmcp/issues",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

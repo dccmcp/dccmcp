@@ -1,0 +1,36 @@
+{
+  "name": "dccmcp",
+  "version": "0.1.0",
+  "description": "Command line for DCCMCP — MCP servers for Blender, Maya, Houdini, 3ds Max, Rhino, ZBrush, Photoshop, FreeCAD and QGIS.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bin": {
+    "dccmcp": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "dcc",
+    "dccmcp",
+    "dccmcp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dccmcp/dccmcp.git"
+  },
+  "homepage": "https://dccmcp.com/docs",
+  "bugs": "https://github.com/dccmcp/dccmcp/issues",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "dccmcp-zbrush",
+  "version": "0.1.0",
+  "description": "MCP server for ZBrush — connect AI agents to ZBrush with typed tools, safety policies and audit logs.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bin": {
+    "dccmcp-zbrush": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "dcc",
+    "dccmcp",
+    "zbrush"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dccmcp/dccmcp.git"
+  },
+  "homepage": "https://dccmcp.com/mcp-for-zbrush",
+  "bugs": "https://github.com/dccmcp/dccmcp/issues",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
