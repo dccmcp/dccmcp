@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dccmcp.com/schema/tool-contract.schema.json",
+  "title": "ToolContract",
+  "description": "A single typed capability exposed to an agent. Semantic name, version tiered, risk classed.",
+  "type": "object",
+  "required": ["name", "host", "risk", "applicableVersions", "requiresScope"],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(\\.[a-z][a-z0-9_]*)+$",
+      "description": "Semantic name, e.g. scene.inspect. Never a raw host API symbol."
+    },
+    "host": { "type": "string", "description": "Host id, e.g. blender, qgis, rhino." },
+    "risk": { "enum": ["read", "write", "execute"] },
+    "applicableVersions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "Semver ranges of host versions this capability is valid for."
+    },
+    "requiresScope": {
+      "type": "boolean",
+      "description": "Write/execute tools must be given an explicit target scope; enforced server-side."
+    },
+    "supersededBy": { "type": "string", "description": "Tool to suggest when this one is unavailable." },
+    "inputSchema": { "type": "object" },
+    "outputSchema": { "type": "object" }
+  }
+}

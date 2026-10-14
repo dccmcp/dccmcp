@@ -3,12 +3,16 @@
   "private": true,
   "version": "0.1.0",
   "description": "DCCMCP — MCP servers for creative and engineering software",
-  "license": "UNLICENSED",
+  "license": "SEE LICENSE IN LICENSING.md",
   "type": "module",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
+    "gen": "node scripts/gen-contract.mjs",
+    "check:boundary": "node scripts/check-license-boundary.mjs",
+    "check:generated": "node scripts/check-generated.mjs",
+    "check": "npm run check:boundary && npm run check:generated",
     "publish:all": "bash scripts/publish-all.sh",
     "publish:dry-run": "bash scripts/publish-all.sh --dry-run"
   },

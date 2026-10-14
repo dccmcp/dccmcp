@@ -1,0 +1,27 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: DCCMCP
+Source: https://github.com/dccmcp/dccmcp
+
+Files: *
+Copyright: 2026 DCCMCP
+License: Apache-2.0
+
+Files: ee/*
+Copyright: 2026 DCCMCP
+License: LicenseRef-DCCMCP-Commercial
+
+Files: packages/dccmcp-blender/plugin/*
+Copyright: 2026 DCCMCP
+License: GPL-2.0-or-later
+
+Files: packages/dccmcp-qgis/plugin/*
+Copyright: 2026 DCCMCP
+License: GPL-2.0-or-later
+
+Files: packages/dccmcp-freecad/plugin/*
+Copyright: 2026 DCCMCP
+License: LGPL-2.1-or-later
+
+Files: LICENSES/*
+Copyright: 2026 DCCMCP
+License: CC0-1.0

@@ -26,6 +26,25 @@ Documentation and downloads: **https://dccmcp.com**
 
 All packages are pre-release. Run any of them with `--help` for the current status.
 
+## Licensing
+
+DCCMCP is **open-core**:
+
+- **Open source (the integration layer)** — `packages/contract`, `packages/verify`,
+  `packages/gateway`, the CLIs and every host adapter. Apache-2.0, except Blender and QGIS
+  in-host plugins, which are GPL-2.0-or-later because those hosts require it.
+- **Commercial (the governance and evidence layer)** — everything under `ee/`: team policies,
+  approvals, roles, audit retention/export, multi-instance orchestration, rule packs and
+  enterprise capabilities.
+
+The boundary is a **process boundary**: host plugins talk to the gateway over a local protocol and
+never link against the commercial layer. `LICENSING.md` is the authoritative description; run
+`npm run check` to verify the boundary holds (CI runs the same check on every pull request).
+
+Some packages in this repository currently exist to reserve an npm name. Those are marked
+`UNLICENSED`, grant no rights, and change license in the same commit that lands a real
+implementation.
+
 ## Maintainers
 
 ```bash

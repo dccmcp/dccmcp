@@ -1,0 +1,14 @@
+{
+  "name": "@dccmcp/gateway",
+  "version": "0.1.0",
+  "description": "DCCMCP local gateway — policy enforcement, scopes, checkpoints and audit writes.",
+  "license": "Apache-2.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "files": ["src", "README.md", "LICENSE"],
+  "repository": { "type": "git", "url": "git+https://github.com/dccmcp/dccmcp.git" },
+  "homepage": "https://dccmcp.com/docs",
+  "bugs": "https://github.com/dccmcp/dccmcp/issues",
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,4 @@
+This is a custom license reference for the proprietary parts of DCCMCP.
+
+See ee/LICENSE for the full terms. In short: all rights reserved, no rights
+granted except under a written commercial agreement with DCCMCP.

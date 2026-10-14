@@ -1,3 +1,8 @@
+> **Status: not planned.** The `dccmcp-opencv` name is reserved, but OpenCV is not part of the
+> `MCP for <software>` product line. OpenCV is a library rather than a host application, and
+> general coding agents already cover it. See the project's decision log (D23).
+> Industrial computer-vision auditing is tracked separately as a possible standalone product (D24).
+
 # dccmcp-opencv
 
 **MCP server for OpenCV** — let AI agents work inside a real OpenCV session with typed

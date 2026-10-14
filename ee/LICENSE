@@ -1,0 +1,11 @@
+Copyright (c) 2026 DCCMCP. All rights reserved.
+
+This directory and its contents are proprietary and confidential. They are NOT
+covered by any open-source license in this repository.
+
+No part of ee/** may be copied, modified, distributed, sublicensed or used to
+provide a commercial service without a written commercial agreement with DCCMCP.
+
+The open-source components in packages/** are licensed separately — see
+LICENSING.md at the repository root. Nothing in this file restricts rights you
+already hold under those licenses.
