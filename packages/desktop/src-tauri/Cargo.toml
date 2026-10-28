@@ -1,0 +1,19 @@
+[package]
+name = "dccmcp-desktop"
+version = "0.1.0"
+description = "DCCMCP Desktop — connection and governance console shell"
+edition = "2021"
+license = "Apache-2.0"
+repository = "https://github.com/dccmcp/dccmcp"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+strip = true

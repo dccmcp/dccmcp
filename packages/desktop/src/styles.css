@@ -1,0 +1,14 @@
+/* SPDX-License-Identifier: Apache-2.0 */
+@import "tailwindcss";
+
+/* Design tokens mirror dccmcp.com (dark + mint). */
+@theme {
+  --color-ink: #0a0a0b;
+  --color-panel: #111113;
+  --color-panel-raised: #161618;
+  --color-line: #27272a;
+  --color-mint: #2dd4bf;
+  --color-fg: #fafafa;
+  --color-muted: #a1a1aa;
+  --color-success: #34d399;
+}

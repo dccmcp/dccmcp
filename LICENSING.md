@@ -9,6 +9,7 @@ source, what is commercial, and where the boundary sits.
 | --- | --- |
 | `packages/contract`, `packages/verify`, `packages/gateway` | Apache-2.0 |
 | `packages/dccmcp`, `packages/dccmcp-inspect` | Apache-2.0 |
+| `packages/desktop` | Apache-2.0 |
 | `packages/dccmcp-blender`, `packages/dccmcp-qgis` — CLI and MCP server | Apache-2.0 |
 | `packages/dccmcp-blender/plugin`, `packages/dccmcp-qgis/plugin` | GPL-2.0-or-later |
 | `packages/dccmcp-freecad/plugin` | LGPL-2.1-or-later |
